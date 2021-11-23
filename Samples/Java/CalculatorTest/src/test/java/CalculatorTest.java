@@ -104,7 +104,7 @@ public class CalculatorTest {
         CalculatorSession.findElementByName("Multiply by").click();
         CalculatorSession.findElementByName("Nine").click();
         CalculatorSession.findElementByName("Equals").click();
-        Assert.assertEquals("81", _GetCalculatorResultText());
+        Assert.assertEquals("81", _GetCalculatorResultText())
     }
 
     @Test
